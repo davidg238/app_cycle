@@ -1,0 +1,7 @@
+name: app1
+entrypoint: app1.toit
+triggers:
+  on_boot: true
+  on_install: true
+  on_pubsub_topic:
+    - "device:app1"

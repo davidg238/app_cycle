@@ -1,0 +1,5 @@
+name: app2
+entrypoint: app2.toit
+triggers:
+  on_pubsub_topic:
+    - "device:app2"
